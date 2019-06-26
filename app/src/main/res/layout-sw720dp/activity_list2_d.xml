@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.david.ezgeo.list2D"
+    android:background="#751CE7"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Hexagon"
+        android:id="@+id/button4"
+        android:background="#ff4c05"
+        android:onClick="openHexagon"
+        android:layout_below="@+id/button18"
+        android:layout_alignRight="@+id/button15"
+        android:layout_alignEnd="@+id/button15"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Triangle"
+        android:id="@+id/button5"
+        android:background="#ff4c05"
+        android:onClick="openTriangle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Square"
+        android:id="@+id/button13"
+        android:background="#ff4c05"
+        android:onClick="openSquare"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Circle"
+        android:id="@+id/button14"
+        android:background="#ff4c05"
+        android:onClick="open2DCircleee"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Octagon"
+        android:id="@+id/button15"
+        android:background="#ff4c05"
+        android:onClick="openheyaa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Decagon"
+        android:id="@+id/button16"
+        android:background="#ff4c05"
+        android:onClick="openDecagon"
+        android:layout_below="@+id/button17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Pentagon"
+        android:id="@+id/button17"
+        android:background="#ff4c05"
+        android:onClick="openPentagon"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Trapezoid"
+        android:id="@+id/button18"
+        android:background="#ff4c05"
+        android:onClick="openTrapezoidaa"
+        android:layout_below="@+id/button15"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="5dp"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>
